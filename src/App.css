@@ -2,37 +2,97 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.layout{
+  display: grid;
+  grid-template-columns: 20vw 80vw;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.sideBar{
+  /* border: 2px solid red; */
+  background-color: #4E73DF;
+  color: white;
+
+}
+
+.drop-down  .drop-down-btn{
+  background-color:#4E73DF;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.contentArea{
+  /* border: 2px solid rebeccapurple; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header{
+  
+}
+.content{
+  background-color: #f1f1f1;
+}
+
+.footer{
+  /* border: 1px solid gray; */
+  height: 10vh;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4e7ef;
+}
+.content{
+  /* border: 2px solid black; */
+  min-height: 77vh;
+}
+.btn-icon{
+  border-radius: 50%;
+}
+.btn-google{
+  background-color:#E12717;
+}
+.btn-facebook{
+  background-color: #3B5998;
+}
+
+.border-component{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 20px;
+
+
+}
+
+.boorder-component-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-container{
+  
+  width: 40%;
+  margin: 20px;
+}
+.card-component-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.sideBar-btn{
+  margin: 20px 0;
+}
+.pointer{
+  cursor: pointer;
+}
+.bashBoard-title{
+  padding-top: 150px;
 }
