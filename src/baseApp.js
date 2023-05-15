@@ -89,7 +89,7 @@ export default function BaseApp(props){
                     {props.children}
                 </div>
                 <div className="footer">
-                    <p className="mt-3">Copyright © Your Website 2021</p>
+                    <p className="mt-3">Copyright © Your Website {new Date().getFullYear()}</p>
                 </div>
                 
             </div>
